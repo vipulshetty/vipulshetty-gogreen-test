@@ -1876,3 +1876,5 @@ Activity generated on 2024-12-17T14:43:06+05:30
 Adding unit tests
 Activity generated on 2024-12-17T16:14:34+05:30
 Code review
+Activity generated on 2024-12-18T11:51:46+05:30
+Fixing security issues
