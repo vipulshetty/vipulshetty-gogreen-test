@@ -1700,3 +1700,5 @@ Activity generated on 2025-01-21T16:29:34+05:30
 Adding unit tests
 Activity generated on 2025-01-24T10:39:20+05:30
 Code review
+Activity generated on 2025-01-28T16:50:09+05:30
+Optimizing performance
