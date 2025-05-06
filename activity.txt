@@ -4530,3 +4530,5 @@ Activity generated on 2025-05-01T16:21:17+05:30
 Refactoring legacy code
 Activity generated on 2025-05-01T19:41:56+05:30
 Adding unit tests
+Activity generated on 2025-05-06T15:13:46+05:30
+Fixing security issues
