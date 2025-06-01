@@ -2994,3 +2994,5 @@ Activity generated on 2025-05-31T10:00:17+05:30
 Updating dependencies
 Activity generated on 2025-05-31T21:56:31+05:30
 Testing functionality
+Activity generated on 2025-06-01T21:04:48+05:30
+Debugging issues
