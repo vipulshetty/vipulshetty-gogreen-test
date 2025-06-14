@@ -1,0 +1,76 @@
+{
+  "defaultSettings": {
+    "minCommitsPerDay": 1,
+    "maxCommitsPerDay": 5,
+    "activityFile": "activity.txt",
+    "dataFile": "commits-data.json"
+  },
+  "commitMessages": [
+    "Add new feature",
+    "Fix bug",
+    "Update documentation",
+    "Refactor code",
+    "Improve performance",
+    "Add tests",
+    "Update dependencies",
+    "Fix typo",
+    "Clean up code",
+    "Add comments",
+    "Optimize algorithm",
+    "Update README",
+    "Fix formatting",
+    "Add error handling",
+    "Update configuration",
+    "Implement new functionality",
+    "Code cleanup",
+    "Security improvements",
+    "UI enhancements",
+    "Database optimization"
+  ],
+  "activities": [
+    "Working on new features",
+    "Debugging issues",
+    "Writing documentation",
+    "Code review",
+    "Testing functionality",
+    "Optimizing performance",
+    "Updating dependencies",
+    "Refactoring legacy code",
+    "Adding unit tests",
+    "Fixing security issues",
+    "Implementing user feedback",
+    "Database maintenance",
+    "API improvements",
+    "Frontend development",
+    "Backend optimization"
+  ],
+  "patterns": {
+    "heart": [
+      [0, 1, 1, 0, 1, 1, 0],
+      [1, 2, 2, 1, 2, 2, 1],
+      [1, 2, 2, 2, 2, 2, 1],
+      [0, 1, 2, 2, 2, 1, 0],
+      [0, 0, 1, 2, 1, 0, 0],
+      [0, 0, 0, 1, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0, 0]
+    ],
+    "smile": [
+      [0, 1, 1, 1, 1, 1, 0],
+      [1, 0, 0, 0, 0, 0, 1],
+      [1, 2, 0, 0, 0, 2, 1],
+      [1, 0, 0, 0, 0, 0, 1],
+      [1, 2, 0, 2, 0, 2, 1],
+      [1, 0, 2, 2, 2, 0, 1],
+      [0, 1, 1, 1, 1, 1, 0]
+    ],
+    "wave": [
+      [1, 0, 0, 0, 0, 0, 0],
+      [2, 1, 0, 0, 0, 0, 0],
+      [3, 2, 1, 0, 0, 0, 0],
+      [2, 3, 2, 1, 0, 0, 0],
+      [1, 2, 3, 2, 1, 0, 0],
+      [0, 1, 2, 3, 2, 1, 0],
+      [0, 0, 1, 2, 3, 2, 1]
+    ]
+  }
+}

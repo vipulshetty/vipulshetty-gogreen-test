@@ -1,0 +1,34 @@
+{
+  "name": "github-activitygenrator",
+  "version": "1.0.0",
+  "description": "🌱 goGreen - GitHub Activity Generator to make your contribution graph green",
+  "main": "goGreen.js",
+  "bin": {
+    "gogreen": "./cli.js"
+  },
+  "scripts": {
+    "simple": "node simple.js",
+    "go": "node go.js",
+    "easy": "node easy.js",
+    "start": "node cli.js",
+    "super": "node super-realistic.js",
+    "examples": "node examples.js",
+    "realistic": "node realistic-examples.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "github",
+    "activity",
+    "generator",
+    "commits",
+    "contribution",
+    "graph",
+    "green"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.30.1",
+    "simple-git": "^3.28.0"
+  }
+}

@@ -1,0 +1,538 @@
+[
+  {
+    "date": "2024-12-17T09:36:05+05:30",
+    "message": "refactor: improve error handling"
+  },
+  {
+    "date": "2024-12-19T09:37:59+05:30",
+    "message": "docs: update README"
+  },
+  {
+    "date": "2024-12-19T21:34:17+05:30",
+    "message": "feat: create new dashboard"
+  },
+  {
+    "date": "2024-12-19T09:50:38+05:30",
+    "message": "feat: add user authentication"
+  },
+  {
+    "date": "2024-12-23T19:04:58+05:30",
+    "message": "refactor: optimize database queries"
+  },
+  {
+    "date": "2024-12-26T09:47:35+05:30",
+    "message": "refactor: optimize database queries"
+  },
+  {
+    "date": "2024-12-27T11:18:38+05:30",
+    "message": "feat: add file upload feature"
+  },
+  {
+    "date": "2024-12-27T20:30:09+05:30",
+    "message": "chore: update build scripts"
+  },
+  {
+    "date": "2024-12-27T20:02:32+05:30",
+    "message": "fix: fix broken navigation"
+  },
+  {
+    "date": "2024-12-27T14:55:16+05:30",
+    "message": "test: add unit tests for auth"
+  },
+  {
+    "date": "2024-12-27T14:00:21+05:30",
+    "message": "test: create integration tests"
+  },
+  {
+    "date": "2024-12-27T20:57:41+05:30",
+    "message": "fix: resolve database connection error"
+  },
+  {
+    "date": "2024-12-27T20:35:04+05:30",
+    "message": "feat: add export functionality"
+  },
+  {
+    "date": "2024-12-27T18:02:00+05:30",
+    "message": "feat: add dark mode support"
+  },
+  {
+    "date": "2024-12-30T11:57:26+05:30",
+    "message": "feat: create new dashboard"
+  },
+  {
+    "date": "2024-12-30T16:21:02+05:30",
+    "message": "refactor: clean up legacy code"
+  },
+  {
+    "date": "2025-01-02T09:33:10+05:30",
+    "message": "refactor: clean up legacy code"
+  },
+  {
+    "date": "2025-01-02T16:34:01+05:30",
+    "message": "test: create mock data"
+  },
+  {
+    "date": "2025-01-07T18:49:29+05:30",
+    "message": "fix: correct validation error"
+  },
+  {
+    "date": "2025-01-14T19:23:52+05:30",
+    "message": "fix: resolve memory leak"
+  },
+  {
+    "date": "2025-01-16T09:06:30+05:30",
+    "message": "fix: fix broken navigation"
+  },
+  {
+    "date": "2025-01-17T15:08:41+05:30",
+    "message": "feat: create user profile page"
+  },
+  {
+    "date": "2025-01-20T18:05:13+05:30",
+    "message": "test: add performance tests"
+  },
+  {
+    "date": "2025-01-21T14:16:53+05:30",
+    "message": "fix: resolve database connection error"
+  },
+  {
+    "date": "2025-01-22T18:23:29+05:30",
+    "message": "refactor: optimize database queries"
+  },
+  {
+    "date": "2025-01-23T18:59:59+05:30",
+    "message": "fix: resolve database connection error"
+  },
+  {
+    "date": "2025-01-23T10:33:57+05:30",
+    "message": "fix: correct validation error"
+  },
+  {
+    "date": "2025-01-23T15:12:39+05:30",
+    "message": "feat: create new dashboard"
+  },
+  {
+    "date": "2025-01-28T14:20:41+05:30",
+    "message": "chore: update dependencies"
+  },
+  {
+    "date": "2025-01-29T18:24:10+05:30",
+    "message": "chore: configure environment variables"
+  },
+  {
+    "date": "2025-01-30T17:15:30+05:30",
+    "message": "docs: add API documentation"
+  },
+  {
+    "date": "2025-02-04T19:40:00+05:30",
+    "message": "feat: implement real-time notifications"
+  },
+  {
+    "date": "2025-02-04T21:45:51+05:30",
+    "message": "refactor: refactor authentication logic"
+  },
+  {
+    "date": "2025-02-09T19:39:52+05:30",
+    "message": "test: add performance tests"
+  },
+  {
+    "date": "2025-02-09T20:10:38+05:30",
+    "message": "refactor: improve error handling"
+  },
+  {
+    "date": "2025-02-09T10:44:47+05:30",
+    "message": "fix: fix API timeout issue"
+  },
+  {
+    "date": "2025-02-09T14:48:19+05:30",
+    "message": "fix: correct validation error"
+  },
+  {
+    "date": "2025-02-09T20:23:31+05:30",
+    "message": "feat: implement search functionality"
+  },
+  {
+    "date": "2025-02-09T11:31:26+05:30",
+    "message": "docs: add contributing guidelines"
+  },
+  {
+    "date": "2025-02-09T10:58:24+05:30",
+    "message": "chore: configure CI/CD pipeline"
+  },
+  {
+    "date": "2025-02-09T20:59:17+05:30",
+    "message": "fix: fix login redirect issue"
+  },
+  {
+    "date": "2025-02-09T22:17:39+05:30",
+    "message": "fix: fix broken navigation"
+  },
+  {
+    "date": "2025-02-09T11:54:15+05:30",
+    "message": "feat: implement real-time notifications"
+  },
+  {
+    "date": "2025-02-09T19:08:32+05:30",
+    "message": "docs: create user manual"
+  },
+  {
+    "date": "2025-02-09T21:26:33+05:30",
+    "message": "docs: add contributing guidelines"
+  },
+  {
+    "date": "2025-02-09T10:38:24+05:30",
+    "message": "fix: resolve memory leak"
+  },
+  {
+    "date": "2025-02-09T19:34:11+05:30",
+    "message": "feat: add dark mode support"
+  },
+  {
+    "date": "2025-02-09T19:27:31+05:30",
+    "message": "refactor: optimize database queries"
+  },
+  {
+    "date": "2025-02-09T16:38:14+05:30",
+    "message": "test: add performance tests"
+  },
+  {
+    "date": "2025-02-10T18:04:52+05:30",
+    "message": "chore: clean up unused files"
+  },
+  {
+    "date": "2025-02-11T16:40:45+05:30",
+    "message": "fix: correct validation error"
+  },
+  {
+    "date": "2025-02-11T18:28:49+05:30",
+    "message": "docs: add contributing guidelines"
+  },
+  {
+    "date": "2025-02-12T16:28:05+05:30",
+    "message": "docs: add code comments"
+  },
+  {
+    "date": "2025-02-13T10:52:46+05:30",
+    "message": "chore: configure environment variables"
+  },
+  {
+    "date": "2025-02-13T15:43:33+05:30",
+    "message": "docs: add API documentation"
+  },
+  {
+    "date": "2025-02-18T10:27:55+05:30",
+    "message": "refactor: clean up legacy code"
+  },
+  {
+    "date": "2025-02-20T20:05:03+05:30",
+    "message": "feat: implement search functionality"
+  },
+  {
+    "date": "2025-02-20T17:43:22+05:30",
+    "message": "feat: add dark mode support"
+  },
+  {
+    "date": "2025-02-25T17:49:22+05:30",
+    "message": "fix: fix login redirect issue"
+  },
+  {
+    "date": "2025-02-25T20:55:13+05:30",
+    "message": "fix: fix login redirect issue"
+  },
+  {
+    "date": "2025-02-25T20:51:32+05:30",
+    "message": "feat: implement real-time notifications"
+  },
+  {
+    "date": "2025-02-26T16:23:54+05:30",
+    "message": "fix: fix API timeout issue"
+  },
+  {
+    "date": "2025-02-26T16:27:30+05:30",
+    "message": "feat: create new dashboard"
+  },
+  {
+    "date": "2025-02-26T18:56:38+05:30",
+    "message": "refactor: clean up legacy code"
+  },
+  {
+    "date": "2025-02-26T20:15:47+05:30",
+    "message": "feat: implement search functionality"
+  },
+  {
+    "date": "2025-02-26T15:30:47+05:30",
+    "message": "fix: fix responsive design bug"
+  },
+  {
+    "date": "2025-02-26T17:32:53+05:30",
+    "message": "docs: update changelog"
+  },
+  {
+    "date": "2025-02-26T11:35:07+05:30",
+    "message": "fix: fix broken navigation"
+  },
+  {
+    "date": "2025-02-26T15:57:44+05:30",
+    "message": "feat: create new dashboard"
+  },
+  {
+    "date": "2025-02-26T14:44:40+05:30",
+    "message": "fix: resolve memory leak"
+  },
+  {
+    "date": "2025-02-26T18:00:34+05:30",
+    "message": "chore: configure environment variables"
+  },
+  {
+    "date": "2025-02-26T16:53:12+05:30",
+    "message": "fix: correct validation error"
+  },
+  {
+    "date": "2025-02-26T17:00:53+05:30",
+    "message": "feat: add user authentication"
+  },
+  {
+    "date": "2025-02-26T17:11:49+05:30",
+    "message": "fix: resolve memory leak"
+  },
+  {
+    "date": "2025-02-26T16:48:49+05:30",
+    "message": "feat: create user profile page"
+  },
+  {
+    "date": "2025-02-26T17:44:47+05:30",
+    "message": "feat: create user profile page"
+  },
+  {
+    "date": "2025-03-10T09:49:12+05:30",
+    "message": "chore: update build scripts"
+  },
+  {
+    "date": "2025-03-11T18:35:33+05:30",
+    "message": "test: add performance tests"
+  },
+  {
+    "date": "2025-03-11T16:47:24+05:30",
+    "message": "fix: correct validation error"
+  },
+  {
+    "date": "2025-03-12T16:39:48+05:30",
+    "message": "refactor: simplify configuration"
+  },
+  {
+    "date": "2025-03-12T19:03:43+05:30",
+    "message": "fix: fix responsive design bug"
+  },
+  {
+    "date": "2025-03-12T21:12:51+05:30",
+    "message": "chore: update dependencies"
+  },
+  {
+    "date": "2025-03-12T09:29:33+05:30",
+    "message": "chore: update dependencies"
+  },
+  {
+    "date": "2025-03-12T14:43:56+05:30",
+    "message": "refactor: simplify configuration"
+  },
+  {
+    "date": "2025-03-18T14:42:04+05:30",
+    "message": "refactor: extract reusable components"
+  },
+  {
+    "date": "2025-03-18T18:07:32+05:30",
+    "message": "feat: add user authentication"
+  },
+  {
+    "date": "2025-03-18T19:21:40+05:30",
+    "message": "chore: update dependencies"
+  },
+  {
+    "date": "2025-03-19T18:53:46+05:30",
+    "message": "chore: update build scripts"
+  },
+  {
+    "date": "2025-03-19T14:38:50+05:30",
+    "message": "fix: fix API timeout issue"
+  },
+  {
+    "date": "2025-03-20T09:43:48+05:30",
+    "message": "feat: add dark mode support"
+  },
+  {
+    "date": "2025-03-23T20:11:07+05:30",
+    "message": "chore: update linting rules"
+  },
+  {
+    "date": "2025-03-24T15:31:23+05:30",
+    "message": "feat: implement search functionality"
+  },
+  {
+    "date": "2025-03-25T10:49:00+05:30",
+    "message": "feat: add dark mode support"
+  },
+  {
+    "date": "2025-03-25T19:51:54+05:30",
+    "message": "fix: correct validation error"
+  },
+  {
+    "date": "2025-03-26T17:02:37+05:30",
+    "message": "feat: add dark mode support"
+  },
+  {
+    "date": "2025-03-26T09:33:16+05:30",
+    "message": "test: create mock data"
+  },
+  {
+    "date": "2025-03-27T16:59:49+05:30",
+    "message": "chore: clean up unused files"
+  },
+  {
+    "date": "2025-04-02T11:57:02+05:30",
+    "message": "refactor: optimize database queries"
+  },
+  {
+    "date": "2025-04-02T09:21:57+05:30",
+    "message": "chore: update dependencies"
+  },
+  {
+    "date": "2025-04-07T19:45:00+05:30",
+    "message": "feat: add export functionality"
+  },
+  {
+    "date": "2025-04-08T18:48:49+05:30",
+    "message": "docs: add API documentation"
+  },
+  {
+    "date": "2025-04-09T19:23:29+05:30",
+    "message": "fix: resolve database connection error"
+  },
+  {
+    "date": "2025-04-09T14:48:49+05:30",
+    "message": "chore: update dependencies"
+  },
+  {
+    "date": "2025-04-15T18:45:47+05:30",
+    "message": "fix: fix responsive design bug"
+  },
+  {
+    "date": "2025-04-16T10:13:06+05:30",
+    "message": "docs: add contributing guidelines"
+  },
+  {
+    "date": "2025-04-16T16:40:46+05:30",
+    "message": "fix: resolve database connection error"
+  },
+  {
+    "date": "2025-04-17T17:57:03+05:30",
+    "message": "chore: update build scripts"
+  },
+  {
+    "date": "2025-04-17T18:02:15+05:30",
+    "message": "test: add unit tests for auth"
+  },
+  {
+    "date": "2025-04-18T10:49:43+05:30",
+    "message": "feat: add file upload feature"
+  },
+  {
+    "date": "2025-04-20T10:05:34+05:30",
+    "message": "docs: create user manual"
+  },
+  {
+    "date": "2025-04-22T20:35:52+05:30",
+    "message": "docs: add API documentation"
+  },
+  {
+    "date": "2025-04-22T19:14:36+05:30",
+    "message": "fix: correct validation error"
+  },
+  {
+    "date": "2025-04-22T09:15:18+05:30",
+    "message": "feat: add export functionality"
+  },
+  {
+    "date": "2025-04-23T10:11:39+05:30",
+    "message": "chore: configure CI/CD pipeline"
+  },
+  {
+    "date": "2025-04-24T18:50:07+05:30",
+    "message": "refactor: improve error handling"
+  },
+  {
+    "date": "2025-04-24T11:46:37+05:30",
+    "message": "feat: add dark mode support"
+  },
+  {
+    "date": "2025-04-27T15:51:16+05:30",
+    "message": "refactor: optimize database queries"
+  },
+  {
+    "date": "2025-04-29T10:49:12+05:30",
+    "message": "fix: resolve database connection error"
+  },
+  {
+    "date": "2025-05-01T19:22:14+05:30",
+    "message": "refactor: optimize database queries"
+  },
+  {
+    "date": "2025-05-01T15:17:34+05:30",
+    "message": "test: create integration tests"
+  },
+  {
+    "date": "2025-05-01T14:27:57+05:30",
+    "message": "refactor: optimize database queries"
+  },
+  {
+    "date": "2025-05-15T20:58:01+05:30",
+    "message": "docs: create user manual"
+  },
+  {
+    "date": "2025-05-15T11:38:16+05:30",
+    "message": "chore: update linting rules"
+  },
+  {
+    "date": "2025-05-16T14:39:52+05:30",
+    "message": "docs: add API documentation"
+  },
+  {
+    "date": "2025-05-27T14:40:00+05:30",
+    "message": "feat: implement real-time notifications"
+  },
+  {
+    "date": "2025-05-28T21:52:35+05:30",
+    "message": "fix: fix API timeout issue"
+  },
+  {
+    "date": "2025-05-28T19:57:02+05:30",
+    "message": "chore: update build scripts"
+  },
+  {
+    "date": "2025-05-29T16:28:45+05:30",
+    "message": "fix: correct date formatting"
+  },
+  {
+    "date": "2025-06-10T11:42:57+05:30",
+    "message": "feat: create user profile page"
+  },
+  {
+    "date": "2025-06-11T20:11:48+05:30",
+    "message": "feat: add user authentication"
+  },
+  {
+    "date": "2025-06-11T17:42:52+05:30",
+    "message": "refactor: improve error handling"
+  },
+  {
+    "date": "2025-06-11T14:15:33+05:30",
+    "message": "fix: resolve memory leak"
+  },
+  {
+    "date": "2025-06-12T14:25:14+05:30",
+    "message": "feat: add export functionality"
+  },
+  {
+    "date": "2025-06-14T22:43:19+05:30",
+    "message": "fix: fix responsive design bug"
+  }
+]
