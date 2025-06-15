@@ -7,6 +7,8 @@
     "gogreen": "./cli.js"
   },
   "scripts": {
+    "custom": "node custom.js",
+    "active": "node super-active.js",
     "simple": "node simple.js",
     "go": "node go.js",
     "easy": "node easy.js",

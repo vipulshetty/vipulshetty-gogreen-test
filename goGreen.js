@@ -48,75 +48,75 @@ class RealisticRandomizer {
         let commitDistribution;
         switch(this.activityLevel) {
             case 'light':
-                commitDistribution = [0, 0, 0, 0, 0, 0, 1, 1, 1, 2]; // 60% no commits
+                commitDistribution = [0, 0, 0, 1, 1, 1, 2]; // ~43% no commits - for ~370 commits/year
                 break;
             case 'moderate':
-                commitDistribution = [0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 3]; // 36% no commits
+                commitDistribution = [0, 0, 1, 1, 2, 2, 3, 4]; // ~25% no commits - for ~300 commits/6months
                 break;
             case 'high':
-                commitDistribution = [0, 0, 1, 1, 1, 2, 2, 2, 3, 3, 4, 5]; // 17% no commits
+                commitDistribution = [1, 2, 2, 3, 3, 4, 4, 5, 6, 7, 8]; // 0% no commits
                 break;
             case 'mixed':
                 // Realistic mixed pattern with busy periods
-                if (Math.random() < 0.1) { // 10% chance of busy period
-                    commitDistribution = [3, 4, 5, 6, 7, 8]; // Busy period
+                if (Math.random() < 0.15) { // 15% chance of busy period
+                    commitDistribution = [5, 6, 7, 8, 9, 10, 12]; // Busy period
                 } else {
-                    commitDistribution = [0, 0, 0, 1, 1, 1, 2, 2]; // Normal period
+                    commitDistribution = [1, 1, 2, 2, 3, 3, 4]; // Normal period
                 }
                 break;
             default:
-                commitDistribution = [0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 3]; // Default moderate
+                commitDistribution = [0, 0, 1, 1, 2, 2, 3]; // Default light
         }
 
         let baseCommits = commitDistribution[randomInt(0, commitDistribution.length - 1)];
 
-        // Weekend behavior - adjust based on activity level
+        // Weekend behavior - much less restrictive for more commits
         if (isWeekend) {
             let weekendNoCommitChance;
             switch(this.activityLevel) {
                 case 'light':
-                    weekendNoCommitChance = 0.85; // 85% no weekend commits
+                    weekendNoCommitChance = 0.40; // 40% no weekend commits
                     break;
                 case 'moderate':
-                    weekendNoCommitChance = 0.70; // 70% no weekend commits
+                    weekendNoCommitChance = 0.30; // 30% no weekend commits
                     break;
                 case 'high':
-                    weekendNoCommitChance = 0.50; // 50% no weekend commits
+                    weekendNoCommitChance = 0.20; // 20% no weekend commits
                     break;
                 case 'mixed':
-                    weekendNoCommitChance = 0.60; // 60% no weekend commits
+                    weekendNoCommitChance = 0.25; // 25% no weekend commits
                     break;
                 default:
-                    weekendNoCommitChance = 0.70;
+                    weekendNoCommitChance = 0.30;
             }
 
             if (Math.random() < weekendNoCommitChance) {
                 return 0;
             }
-            baseCommits = Math.floor(baseCommits * 0.5); // Reduced weekend activity
+            baseCommits = Math.floor(baseCommits * 0.8); // Less reduction for weekends
         }
 
-        // Monday blues - often no commits or very few
-        if (isMonday && Math.random() < 0.4) {
-            return 0;
-        }
-
-        // Friday wind-down - less activity
-        if (isFriday) {
+        // Monday blues - reduced impact
+        if (isMonday && Math.random() < 0.15) {
             baseCommits = Math.floor(baseCommits * 0.7);
         }
 
-        // Holiday behavior
-        if (isHoliday) {
-            if (Math.random() < 0.8) {
-                return 0; // 80% chance of no commits on holidays
-            }
-            baseCommits = Math.floor(baseCommits * 0.2);
+        // Friday wind-down - minimal impact
+        if (isFriday && Math.random() < 0.3) {
+            baseCommits = Math.floor(baseCommits * 0.9);
         }
 
-        // Vacation simulation - random 3-7 day gaps
-        if (Math.random() < 0.02) { // 2% chance of starting a vacation
-            this.vacationDaysLeft = randomInt(3, 7);
+        // Holiday behavior - less restrictive
+        if (isHoliday) {
+            if (Math.random() < 0.50) {
+                return 0; // 50% chance of no commits on holidays
+            }
+            baseCommits = Math.floor(baseCommits * 0.6);
+        }
+
+        // Vacation simulation - shorter and less frequent
+        if (Math.random() < 0.008) { // 0.8% chance of starting a vacation
+            this.vacationDaysLeft = randomInt(2, 4); // Shorter vacations
         }
 
         if (this.vacationDaysLeft > 0) {
@@ -124,8 +124,8 @@ class RealisticRandomizer {
             return 0; // No commits during vacation
         }
 
-        // Sick days - random 1-2 day gaps
-        if (Math.random() < 0.03) { // 3% chance of sick day
+        // Sick days - much less frequent
+        if (Math.random() < 0.01) { // 1% chance of sick day
             return 0;
         }
 
